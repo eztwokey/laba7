@@ -31,8 +31,8 @@ if __name__ == '__main__':
     for i in range(x1, x2):
         m += A[i]
     # 3)
-    A.sort(reverse=True)
-    print(A)
+    b = tuple(sorted(A, reverse=True))
+    print(b)
     print(umn)
     print("Сумма элементов списка, расположенных между первым и вторым"
           " нулевыми элементами равно:", m)
